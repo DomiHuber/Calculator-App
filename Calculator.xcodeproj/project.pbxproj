@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		220429852594BA7400E68C3C /* EingabeTasten.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220429842594BA7400E68C3C /* EingabeTasten.swift */; };
 		227E4F7D2593E9FB001DF34F /* CalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227E4F7C2593E9FB001DF34F /* CalculatorApp.swift */; };
 		227E4F7F2593E9FB001DF34F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227E4F7E2593E9FB001DF34F /* ContentView.swift */; };
 		227E4F812593E9FC001DF34F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 227E4F802593E9FC001DF34F /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		220429842594BA7400E68C3C /* EingabeTasten.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EingabeTasten.swift; sourceTree = SOURCE_ROOT; };
 		227E4F792593E9FB001DF34F /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		227E4F7C2593E9FB001DF34F /* CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorApp.swift; sourceTree = "<group>"; };
 		227E4F7E2593E9FB001DF34F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 		227E4F7B2593E9FB001DF34F /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				227E4FAA2593EB55001DF34F /* HelpViews */,
 				227E4F7C2593E9FB001DF34F /* CalculatorApp.swift */,
 				227E4F7E2593E9FB001DF34F /* ContentView.swift */,
 				227E4F802593E9FC001DF34F /* Assets.xcassets */,
@@ -128,6 +131,14 @@
 				227E4F9B2593E9FC001DF34F /* Info.plist */,
 			);
 			path = CalculatorUITests;
+			sourceTree = "<group>";
+		};
+		227E4FAA2593EB55001DF34F /* HelpViews */ = {
+			isa = PBXGroup;
+			children = (
+				220429842594BA7400E68C3C /* EingabeTasten.swift */,
+			);
+			path = HelpViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 			files = (
 				227E4F7F2593E9FB001DF34F /* ContentView.swift in Sources */,
 				227E4F7D2593E9FB001DF34F /* CalculatorApp.swift in Sources */,
+				220429852594BA7400E68C3C /* EingabeTasten.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,8 +429,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Calculator/Preview Content\"";
+				DEVELOPMENT_TEAM = LD74NGNQH9;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Calculator/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -438,8 +452,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Calculator/Preview Content\"";
+				DEVELOPMENT_TEAM = LD74NGNQH9;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Calculator/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
